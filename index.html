@@ -6,12 +6,34 @@
     <!-- to add favicon  -->
     <link rel="shortcut icon" href="./src/icons/favicon.ico" type="image/x-icon">
     <title>Portfolio Using Tailwind</title>
+    <!-- add font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- <link rel="stylesheet" href="./src/input.css"> -->
      <link rel="stylesheet" href="./build/output.css">
 </head>
 <body>
-    <p class="bg-red-500">hello</p>
-    <p class="bg-blue-600">goodbye</p>
-    <p class="bg-purple-500">Good Morning</p>
+    <!-- header section -->
+     <!-- nav section -->
+      <nav class="navbar z-50 bg-black flex justify-between fixed top-0  left-0 w-full sm:left-0 sm:bottom-0 sm:w-fit  sm:flex-col sm:items-center sm:pb-60">
+        <img src="./src/images/person.jpg" alt="img" class="hidden sm:block sm:max-w-36 ">
+        <a href="#home" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-5">
+            <i class="fa-solid fa-house hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
+            HOME
+        </a>
+        <a href="#about" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-5">
+            <i class="fa-solid fa-user hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
+            ABOUT
+        </a>
+        <a href="#photos" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-5">
+            <i class="fa-solid fa-eye hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
+            PHOTOS
+        </a>
+        <a href="#contact" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-5">
+            <i class="fa-solid fa-envelope hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
+            CONTACT
+        </a>
+      </nav>
+     <!-- End nav section -->
+    <!-- End header section -->
 </body>
 </html>
