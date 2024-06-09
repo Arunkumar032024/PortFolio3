@@ -3,4 +3,6 @@ A portfolio created using Tailwind CSS is a modern, responsive web project showc
 <br>
 Add initial files
 <br>
-Add navbar 
+Add navbar section
+<br>
+Add header section

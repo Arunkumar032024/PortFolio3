@@ -11,29 +11,49 @@
     <!-- <link rel="stylesheet" href="./src/input.css"> -->
      <link rel="stylesheet" href="./build/output.css">
 </head>
-<body>
+<body class="bg-black  text-white">
+    
+    <!-- nav section -->
+    <nav class="navbar z-50 bg-black flex justify-between fixed top-0  left-0 w-full sm:left-0 sm:bottom-0 sm:w-fit  sm:flex-col sm:items-center sm:pb-60">
+    <img src="./src/images/person.jpg" alt="img" class="hidden sm:block sm:max-w-36 ">
+    <a href="#home" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-3">
+        <i class="fa-solid fa-house hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
+        HOME
+    </a>
+    <a href="#about" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-3">
+        <i class="fa-solid fa-user hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
+        ABOUT
+    </a>
+    <a href="#photos" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-3">
+        <i class="fa-solid fa-eye hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
+        PHOTOS
+    </a>
+    <a href="#contact" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-3">
+        <i class="fa-solid fa-envelope hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
+        CONTACT
+    </a>
+    </nav>
+    <!-- End nav section -->
+    
     <!-- header section -->
-     <!-- nav section -->
-      <nav class="navbar z-50 bg-black flex justify-between fixed top-0  left-0 w-full sm:left-0 sm:bottom-0 sm:w-fit  sm:flex-col sm:items-center sm:pb-60">
-        <img src="./src/images/person.jpg" alt="img" class="hidden sm:block sm:max-w-36 ">
-        <a href="#home" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-5">
-            <i class="fa-solid fa-house hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
-            HOME
-        </a>
-        <a href="#about" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-5">
-            <i class="fa-solid fa-user hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
-            ABOUT
-        </a>
-        <a href="#photos" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-5">
-            <i class="fa-solid fa-eye hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
-            PHOTOS
-        </a>
-        <a href="#contact" class="group  cursor-pointer p-3 text-white  active:bg-white active:text-black text-center sm:text-2xl sm:p-5">
-            <i class="fa-solid fa-envelope hidden text-white mb-2 text-3xl sm:block group-active:text-black"></i>
-            CONTACT
-        </a>
-      </nav>
-     <!-- End nav section -->
+    <header class=" w-[100vw] h-[100vh] pt-12 mb-52 text-center sm:ms-[160.55px] sm:max-w-lg lg:max-w-2xl lg:mx-auto" id="home">
+        <p class="text-7xl mb-3 tracking-wider	"><span class="hidden sm:inline-block me-3">I'm </span>John Doe</p>
+        <p class="text-slate-100">Photographer and Web Designer.</p>
+        <img src="./src/images/man_smoke.jpg" alt="logo" class="w-full h-[inherit]">
+    </header>
     <!-- End header section -->
+
+    <!-- main section  -->
+    <main class="sm:ms-[160.55px] lg:max-w-4xl lg:mx-auto">
+    <!-- about section  -->
+    <section class="p-3" id="about">
+        <h2 class="text-4xl relative after:absolute after:content-[''] after:w-52 after:h-0.5 after:bg-white after:-bottom-3 after:left-0 mb-5">My Name</h2>
+        <p class="text-justify text-slate-100">Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
+    <!-- End about section  -->
+    </main>
+    <!-- End main section  -->
+
+
 </body>
 </html>
